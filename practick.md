@@ -84,7 +84,7 @@ result = [x.capitalize() for x in families] #capitalize приводит спи�
 print(result)
 ~~~
 
-# Задача 11. Девять свойств информации
+# %% Задача 11. Девять свойств информации
 ~~~
 svoystva = [
     "объективность",
@@ -100,9 +100,9 @@ for number, name in enumerate(svoystva, start=1): #нумерует, начал�
     print(number, name)
 ~~~
 
-Задачи 12 не было в файле.
+# %% Задачи 12 не было в файле.
 
-#Задача 13. Параллельная сортировка массива
+# %% Задача 13. Параллельная сортировка массива
 ~~~
 massiv = [8, 3, 5, 1, 9, 2, 7, 4]
 seredina = len(massiv) // 2
@@ -129,7 +129,7 @@ def merge(left, right):
 print(merge(levaya_sort, pravaya_sort))
 ~~~
 
-#gihub
+# %% gihub
 ~~~
 a = 1
 b = a + a #2
